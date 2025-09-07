@@ -39,7 +39,7 @@ const filterTodos = computed(()=>{
     case 'incomplete':
       return props.todos.filter((t) => !t.status)
     case 'completed':
-      return props.todos.filter((t) => !t.status)
+      return props.todos.filter((t) => t.status)
     default:
       return props.todos
   }
