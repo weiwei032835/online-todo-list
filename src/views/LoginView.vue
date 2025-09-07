@@ -35,7 +35,7 @@ import { login } from '../utils/api.js'
 const router = useRouter()
 
 //表單資料
-const email = ref('test123@gmail.com')
+const email = ref('')
 const password = ref('')
 
 const handleLogin = async()=>{
