@@ -4,7 +4,7 @@ import LoginView from '../views/LoginView.vue'
 import RegisterView from '../views/RegisterView.vue'
 
 const router = createRouter({
-  history: createWebHashHistory('/vue3todolist/'),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
     routes: [
         {
             path: '/',
